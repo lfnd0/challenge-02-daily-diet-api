@@ -22,6 +22,10 @@
     alt="TypeScript"
   >
   <img
+    src="https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white"
+    alt="Fastify"
+  >
+  <img
     src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"
     alt="SQLite"
   >
@@ -32,6 +36,7 @@
 ### :hammer_and_wrench: Tecnologias
 - [Node.js](https://nodejs.org/en)
 - [TipeScript](https://www.typescriptlang.org/)
+- [Fastify](https://fastify.dev/)
 - [Knex](https://knexjs.org/guide/)
 - [SQLite](https://www.sqlite.org/index.html)
 
