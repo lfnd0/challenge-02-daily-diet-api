@@ -6,9 +6,7 @@
 
 <h1 align="center">
   Ignite - Trilha Node.js
-
   <br>
-
   Desafio 02 - Daily Diet API
 </h1>
 
@@ -65,3 +63,6 @@
   - `DELETE/snacks/{id}`: remove uma refeição de acordo com o ID;
   - `PATCH/snacks/{id}`: atualiza uma refeição de acordo com o ID;
   - `GET/snacks/metrics`: lista as métricas do usuário (quantidade das refeições registradas, quantidade das refeições dentro/fora da dieta e a melhor sequência das refeições dentro da dieta).
+
+### :memo: Documentos
+Para mais detalhes e testes dos endpoints acesse as [collections](.docs/collections.json).
