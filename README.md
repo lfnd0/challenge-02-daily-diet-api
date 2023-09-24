@@ -57,33 +57,11 @@
 
 ### :link: Rotas
 #### Usuários
-  - `POST/user`
-    <p>
-      Cria um novo usuário e adicona um cookie para "autenticação"
-    </p>
-
+  - `POST/users`: cria um novo usuário e adicona um cookie para "autenticação".
 #### Refeições
-  - `POST/snacks`
-    <p>
-      Cria uma nova refeição
-    </p>
-  - `GET/snacks`
-    <p>
-      Lista todas as refeições
-    </p>
-  - `GET/snacks/{id}`
-    <p>
-      Lista uma refeição de acordo com o ID
-    </p>
-  - `DELETE/snacks/{id}`
-    <p>
-      Remove uma refeição de acordo com o ID
-    </p>
-  - `PATCH/snacks/{id}`
-    <p>
-      Atualiza uma refeição de acordo com o ID
-    </p>
-  - `GET/snack/metricks`
-    <p>
-      Lista as métricas do usuário (quantidade das refeições registradas, quantidade das refeições dentro/fora da dieta e a melhor sequência das refeições dentro da dieta)
-    </p>
+  - `POST/snacks`: cria uma nova refeição;
+  - `GET/snacks`: lista todas as refeições;
+  - `GET/snacks/{id}`: lista uma refeição de acordo com o ID;
+  - `DELETE/snacks/{id}`: remove uma refeição de acordo com o ID;
+  - `PATCH/snacks/{id}`: atualiza uma refeição de acordo com o ID;
+  - `GET/snacks/metrics`: lista as métricas do usuário (quantidade das refeições registradas, quantidade das refeições dentro/fora da dieta e a melhor sequência das refeições dentro da dieta).
