@@ -3,7 +3,7 @@ import { Knex } from 'knex'
 export async function up(knex: Knex): Promise<void> {
   await knex.schema.createTable('users', (table) => {
     table.uuid('id').primary()
-    table.uuid('session_id').after('id').index()
+    table.uuid('session_id').index()
     table.text('username').unique().notNullable()
     table.timestamp('created_at').defaultTo(knex.fn.now()).notNullable()
     table.timestamp('updated_at').defaultTo(knex.fn.now()).notNullable()

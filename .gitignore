@@ -1,4 +1,12 @@
+# Dependencies
 node_modules
-database/*.db
 package-lock.json
+
+# Database
+database/*.sqlite
+
+# Environment
 .env
+
+# Build
+build
