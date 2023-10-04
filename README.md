@@ -35,7 +35,7 @@
 
 ### :hammer_and_wrench: Tecnologias
 - [Node.js](https://nodejs.org/en)
-- [TipeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Fastify](https://fastify.dev/)
 - [Knex](https://knexjs.org/guide/)
 - [SQLite](https://www.sqlite.org/index.html)
